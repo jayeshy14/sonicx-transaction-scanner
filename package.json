@@ -1,0 +1,25 @@
+{
+  "name": "sonicx-transaction-scanner",
+  "version": "1.0.0",
+  "description": "Scanner for tracking sonicx.fun transactions on the Sonic blockchain",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "scan": "node src/index.js"
+  },
+  "keywords": [
+    "sonic",
+    "blockchain",
+    "sonicx",
+    "transaction",
+    "tracker",
+    "monitoring"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^6.7.1",
+    "mongodb": "^5.0.0"
+  }
+}

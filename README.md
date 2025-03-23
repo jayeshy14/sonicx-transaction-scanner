@@ -42,6 +42,11 @@ A simple and efficient transaction scanner for tracking interactions with the So
    MONGODB_URI=mongodb://localhost:27017
    MONGODB_DB_NAME=sonicx_scanner
    ```
+4. Run
+
+   ```
+   npm run scan
+   ```
 
 ## Usage
 
